@@ -1,0 +1,19 @@
+$colors: (
+  0: #ffffff,
+  1: #ffeeef,
+  2: #ffddee,
+  3: #ffcced,
+  4: #ffbbea,
+  5: #ffaae6,
+  6: #ff99e1,
+  7: #ff88dc,
+  8: #ff77d6,
+  9: #ff66d0,
+  10: #ff55c9
+);
+
+@each $key, $color in $colors {
+  .bg-pink-#{$key} {
+    background-color: $color;
+  }
+};
